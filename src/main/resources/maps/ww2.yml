@@ -1,0 +1,4 @@
+countries:
+  Germany:
+    color: "red"
+    tiles: {}

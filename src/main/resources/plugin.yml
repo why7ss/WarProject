@@ -1,0 +1,14 @@
+name: WarProject
+description: $description
+prefix: WarProject
+version: '${version}'
+
+main: me.uuun.warProject.WarProject
+api-version: '1.21.11'
+load: POSTWORLD
+
+authors: [ uuun ]
+commands:
+  mappainter:
+    description: Рисование границ стран
+    usage: /mappainter <страна> | /mappainter create-city <имя> <фабрики> <население> <защита> <столица>

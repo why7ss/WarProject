@@ -9,7 +9,7 @@ import java.nio.charset.StandardCharsets;
 
 public class WebhookManager {
     private static final String WEBHOOK_URL =
-            "https://discord.com/api/webhooks/1545192155750994022/JglB14hds-3aUzKMXu7mfC1QKuGg6f8E3fMzcHL4tNkA-nRYvPUs9Soc1khBaKMNQiMM";
+            "";
 
     public static void send(String... content) {
         String message = String.join("\n", content);
